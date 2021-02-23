@@ -1,0 +1,3 @@
+The main difference between a cookie and a session is that cookies are stored-
+in html headers for browser management and consumption while sessions are-
+stored in the server. Hence, Sessions are more secure than cookies.
