@@ -4,8 +4,10 @@ if(isset($_POST['firstname']) && isset($_POST['surname']) && isset($_POST['email
     $surname = $_POST['surname'];
     $email = $_POST['email'];
     $age = $_POST['age'];
-    if($firstname != '' and $surname != '' and $email != '' and $age != '') 
-    echo $firstname . "<br>" . $surname . "<br>" . $email . "<br>" . $age;
+    if($firstname != '' and $surname != '' and $email != '' and $age != ''){
+        echo $firstname . "<br>" . $surname . "<br>" . $email . "<br>" . $age;
+    }
+    
 }
 
 ?>
